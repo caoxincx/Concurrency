@@ -11,13 +11,13 @@ public class SyncObjectMonitor {
     public void objectSync1(String name){
         synchronized (this){
             for (int i = 0; i < 100; i++){
-                System.out.println("name:{}"+name+"   i:"+i);
+                log.info("name:{}"+name+"   i:"+i);
             }
         }
     }
     public synchronized void objectSync2(String name){
         for (int i = 0; i < 100; i++){
-            System.out.println("name:{}"+name+"   i:"+i);
+            log.info("name:{}"+name+"   i:"+i);
         }
     }
 
