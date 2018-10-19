@@ -11,7 +11,7 @@ public class SyncObjectMonitor {
     public void objectSync1(String name){
         synchronized (this){
             for (int i = 0; i < 100; i++){
-                log.info("name:{}"+name+"   i:"+i);
+                log.info("name:{}"+name+"   i:"+ i);
             }
         }
     }
