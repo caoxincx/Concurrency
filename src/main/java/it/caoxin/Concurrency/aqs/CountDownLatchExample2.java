@@ -11,6 +11,7 @@ import java.util.concurrent.TimeUnit;
 /**
  * @描述 aqs Abstract Queue Synchronize
  * CountDownLatchExample2
+ * 测试计数器阀锁的等待时间
  * @创建人 caoxin
  * @创建时间 2018/10/25
  * @修改人和其它信息
